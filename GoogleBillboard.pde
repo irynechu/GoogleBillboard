@@ -3,9 +3,11 @@ public void setup()
 {     
   double dNum = Double.parseDouble(e.substring(2,12));
   System.out.println(dNum);
-  if(isPrime(dNum) == true) {
-    System.out.println(dNum);
-  }
+  for(int i = 0; i < e.length(); i++)
+    //if(isPrime(dNum) == true) {
+    System.out.println(e.substring(i,i+10));
+    
+    
   
 }  
 public void draw()  
